@@ -1,0 +1,12 @@
+package arraysDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String student1 = "Hakkı";
+		String student2 = "Demet";
+		String student3 = "Mürüvvet";
+		String student4 = "Baki";
+	}
+
+}

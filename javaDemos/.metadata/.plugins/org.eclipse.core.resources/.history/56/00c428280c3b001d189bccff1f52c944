@@ -1,0 +1,21 @@
+package switchDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char grade = 'A';
+		
+		switch (grade) {
+		case 'A': {
+			System.out.println("Dersi geçtiniz");
+			break;
+		}
+		case 'B' : {
+			System.out.println("Çok güzel geçtiniz");
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + grade);
+		}
+	}
+
+}

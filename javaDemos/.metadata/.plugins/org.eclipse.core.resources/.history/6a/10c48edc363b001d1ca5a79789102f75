@@ -1,0 +1,22 @@
+package mükemmelSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number = 5;
+		for(int i = 0 ; i < 6 ; i++) {
+			int total = 0;
+			if(number % i == 0) {
+				total = total + i;
+				if(total == number) {
+					System.out.println("Sayı Mükemmel Sayı");
+				}
+				else
+				{
+					System.out.println("Sayı Mükemmel Sayı Değil");
+				}
+			}
+		}
+	}
+
+}
